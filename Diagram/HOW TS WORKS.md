@@ -35,17 +35,19 @@ Final generated output
 
 Read → Break → Understand → Connect → Check → Generate.
 
-Component                  Remember it as
-TS Code                    Original code
-Lexer                      Breaks code into tokens
-Parser                     Understands code structure
-AST                        Tree representation
-Binder                     Connects declarations
-Symbol Tables              Stores symbol information
-Parent Pointers            Tracks relationships
-Flow Nodes                 Tracks changes in values and types
-Checker                    Checks types and errors
-Emitter                    Generates output
-JS / TS / MAP              Output and source-related files
+## TypeScript Compiler – Quick Reference
 
+| Component | Simple Explanation |
+
+| TS Code | Original TypeScript code |
+| Lexer | Breaks code into small parts (tokens) |
+| Parser | Understands the code structure |
+| AST | Tree structure of the code |
+| Binder | Connects variables and their uses |
+| Symbol Tables | Stores variable and function details |
+| Parent Pointers | Keeps track of parent elements |
+| Flow Nodes | Tracks how values change |
+| Checker | Checks for type errors |
+| Emitter | Converts TypeScript into JavaScript |
+| JS / TS / MAP | Generated JavaScript, original TypeScript and source map files |
 
