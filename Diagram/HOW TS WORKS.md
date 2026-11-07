@@ -36,7 +36,6 @@ Final generated output
 Read → Break → Understand → Connect → Check → Generate.
 
 Component                  Remember it as
---------------------------------------------------
 TS Code                    Original code
 Lexer                      Breaks code into tokens
 Parser                     Understands code structure
@@ -48,6 +47,5 @@ Flow Nodes                 Tracks changes in values and types
 Checker                    Checks types and errors
 Emitter                    Generates output
 JS / TS / MAP              Output and source-related files
---------------------------------------------------
 
 
